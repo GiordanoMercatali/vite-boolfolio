@@ -1,7 +1,10 @@
 <template lang="">
-    <div>
-        
+    <main>
+        <div>Test</div>
+        <div v-for="project in projects" :key="project.id">
+        {{project.title}}
     </div>
+    </main>
 </template>
 
 <script>
@@ -23,5 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    
+    main{
+        background-color: red;
+    }
 </style>
