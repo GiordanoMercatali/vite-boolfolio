@@ -3,13 +3,11 @@
 import AppMain from './components/AppMain.vue';
 
 export default {
-  components: {
-    AppMain,
-  },
   data(){
-    return{
-    };
-  },  
+    return{};
+  },
+  
+  components: { AppMain },
 }
 </script>
 
@@ -18,6 +16,6 @@ export default {
   <AppMain />
 </template>
 
-<style scoped>
+<style>
 
 </style>

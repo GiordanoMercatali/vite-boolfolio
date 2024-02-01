@@ -17,19 +17,17 @@ export default {
         return{
             serverUrl: 'http://127.0.0.1:8000',
             projects: [],
-            
         };
     },
 
     created() {
-        axios.get(`${this.serverUrl}/api/projects`)
+         axios.get(`${this.serverUrl}/api/projects`)
+       // axios.get(`http://127.0.0.1:8000/api/projects`)
         .then((resp) => {
             this.projects = resp.data.results.data;
         });
     },
-    components: {
-        ProjectCard
-    }
+    components: { ProjectCard }
 }
 </script>
 

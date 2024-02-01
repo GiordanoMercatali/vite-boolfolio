@@ -1,0 +1,75 @@
+{
+    "result": [
+        {
+            "id": 66,
+            "title": "Voluptas qui autem ullam.",
+            "cover_image": null,
+            "description": "Accusamus magni similique consequuntur nihil. Doloribus voluptas dolor sint et est facilis laudantium aliquid. Dolore cupiditate quos minima adipisci.",
+            "languages": "Minima possimus.",
+            "n_stakeholders": 4,
+            "year": "2021",
+            "git_link": "http://www.von.com/sit-earum-consequatur-esse-expedita",
+            "slug": "voluptas-qui-autem-ullam",
+            "type_id": 6,
+            "created_at": "2024-01-29T17:42:59.000000Z",
+            "updated_at": "2024-01-29T17:42:59.000000Z"
+        },
+        {
+            "id": 67,
+            "title": "Omnis iusto est.",
+            "cover_image": null,
+            "description": "Repellendus sapiente rerum adipisci quia. Accusantium est commodi iste qui aliquid. In laboriosam minus sapiente amet mollitia repellendus. Mollitia harum iusto ipsam quasi.",
+            "languages": "Atque blanditiis quas dignissimos.",
+            "n_stakeholders": 3,
+            "year": "1981",
+            "git_link": "http://www.cole.com/et-delectus-quidem-excepturi-architecto-laborum-autem-libero-tempora.html",
+            "slug": "omnis-iusto-est",
+            "type_id": 6,
+            "created_at": "2024-01-29T17:42:59.000000Z",
+            "updated_at": "2024-01-29T17:42:59.000000Z"
+        },
+        {
+            "id": 68,
+            "title": "Vel provident repellendus et.",
+            "cover_image": null,
+            "description": "Optio in qui consequatur. Iure ipsa explicabo quas est. Quis rerum quibusdam qui non accusantium. Tenetur et fugiat dolor dolores enim quia accusantium qui.",
+            "languages": "In porro suscipit quasi tempora.",
+            "n_stakeholders": 2,
+            "year": "2010",
+            "git_link": "https://reilly.biz/voluptatum-qui-sit-in-facere.html",
+            "slug": "vel-provident-repellendus-et",
+            "type_id": 6,
+            "created_at": "2024-01-29T17:42:59.000000Z",
+            "updated_at": "2024-01-29T17:42:59.000000Z"
+        },
+        {
+            "id": 69,
+            "title": "Praesentium rerum dolores.",
+            "cover_image": null,
+            "description": "Nihil iure quia maiores. Commodi quo consequuntur optio aliquam officia cum. In alias ut culpa quis corrupti voluptas.",
+            "languages": "Expedita qui dignissimos numquam doloribus.",
+            "n_stakeholders": 4,
+            "year": "1991",
+            "git_link": "http://www.hyatt.com/odit-aliquam-quasi-sit-qui-cumque-sint.html",
+            "slug": "praesentium-rerum-dolores",
+            "type_id": 6,
+            "created_at": "2024-01-29T17:42:59.000000Z",
+            "updated_at": "2024-01-29T17:42:59.000000Z"
+        },
+        {
+            "id": 70,
+            "title": "A ad ut amet.",
+            "cover_image": null,
+            "description": "Est quaerat autem molestias blanditiis. Doloremque consequatur dolorem veniam enim. Omnis nihil dolorem adipisci nam dolore veritatis nihil.",
+            "languages": "Sit nostrum adipisci qui.",
+            "n_stakeholders": 5,
+            "year": "1994",
+            "git_link": "https://www.willms.com/eos-optio-et-eveniet-est-incidunt-quis",
+            "slug": "a-ad-ut-amet",
+            "type_id": 6,
+            "created_at": "2024-01-29T17:42:59.000000Z",
+            "updated_at": "2024-01-29T17:42:59.000000Z"
+        }
+    ],
+    "success": true
+}
