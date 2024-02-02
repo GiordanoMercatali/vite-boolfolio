@@ -17,8 +17,8 @@ export default {
 
 <template>
   <h1>Test</h1>
-  <AppMain />
-  <router-view />
+  <!-- <AppMain /> -->
+  <router-view> </router-view>
 </template>
 
 <style>
