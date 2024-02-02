@@ -31,6 +31,11 @@ export default {
 
 <style lang="scss" scoped>
     main{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
         // background-color: red;
     }
 </style>

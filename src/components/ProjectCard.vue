@@ -28,5 +28,11 @@ export default {
         border: 1px solid black;
         width: 20rem;
         margin-bottom: 2rem;
+        padding: 1rem;
+        min-height: 13rem;
+
+        .card-body{
+            border-top: 1px dotted black
+        }
     }
 </style>
