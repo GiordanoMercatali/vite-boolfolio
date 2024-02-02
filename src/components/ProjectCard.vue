@@ -1,7 +1,9 @@
 <template lang="">
     <div class="card h-100">
         <h4>{{ project.title }}</h4>
-        <p>{{ project.description }}</p>
+        <div class="card-body">
+            <p>{{ project.description }}</p>
+        </div>
     </div>
 </template>
 
@@ -21,6 +23,10 @@ export default {
 }
 </script>
 
-<style lang="">
-    
+<style lang="scss" scoped>
+    .card{
+        border: 1px solid black;
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
 </style>

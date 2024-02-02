@@ -1,8 +1,6 @@
 <template lang="">
     <main>
-        <!-- <div>Test</div> -->
         <div v-for="project in projects" :key="project.id">
-            <span>test</span>
             <ProjectCard :project="project" />
         </div>
     </main>
@@ -33,6 +31,6 @@ export default {
 
 <style lang="scss" scoped>
     main{
-        background-color: red;
+        // background-color: red;
     }
 </style>
