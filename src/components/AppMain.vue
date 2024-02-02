@@ -24,7 +24,7 @@ export default {
          axios.get(`${this.serverUrl}/api/projects`)
        // axios.get(`http://127.0.0.1:8000/api/projects`)
         .then((resp) => {
-            this.projects = resp.data.results.data;
+            this.projects = resp.data.results;
         });
     },
     components: {
