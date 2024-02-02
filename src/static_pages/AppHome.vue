@@ -1,9 +1,10 @@
 <template lang="">
     <div>
         <h2>Home</h2>
-        <router-link :to="{name: link}" class="nav-link">
+        <p>Welcome</p>
+        <!-- <router-link :to="{name: link}" class="nav-link">
             About
-        </router-link>
+        </router-link> -->
     </div>
 
 </template>
@@ -12,7 +13,7 @@
 export default {
     data() {
     return {
-      link: 'about',
+    //   link: 'about',
     }
   }
 

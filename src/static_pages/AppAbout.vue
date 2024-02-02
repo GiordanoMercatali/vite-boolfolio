@@ -1,9 +1,10 @@
 <template lang="">
     <div>
         <h2>About us</h2>
-        <router-link :to="{name: link}" class="nav-link">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam repellendus voluptate delectus autem provident expedita facilis ipsam placeat in, maxime error vel voluptatibus eum temporibus. Laudantium sit ipsum temporibus perferendis.</p>
+        <!-- <router-link :to="{name: link}" class="nav-link">
             Home
-        </router-link>
+        </router-link> -->
     </div>
 
 </template>
@@ -12,7 +13,7 @@
 export default {
     data() {
     return {
-      link: 'home',
+    //   link: 'home',
     }
   }
 }
