@@ -1,7 +1,7 @@
 <template lang="">
     <div>
         <h2>Home</h2>
-        <router-link :to="{AppAbout}" class="nav-link">
+        <router-link :to="{name: link}" class="nav-link">
             About
         </router-link>
     </div>
@@ -10,7 +10,12 @@
 
 <script>
 export default {
-    
+    data() {
+    return {
+      link: 'about',
+    }
+  }
+
 }
 </script>
 
