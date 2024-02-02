@@ -27,7 +27,9 @@ export default {
             this.projects = resp.data.results.data;
         });
     },
-    components: { ProjectCard }
+    components: {
+        ProjectCard
+    }
 }
 </script>
 

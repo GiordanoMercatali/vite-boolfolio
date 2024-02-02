@@ -4,10 +4,14 @@ import AppMain from './components/AppMain.vue';
 
 export default {
   data(){
-    return{};
+    return{
+      
+    };
   },
   
-  components: { AppMain },
+  components: {
+    AppMain
+  },
 }
 </script>
 
