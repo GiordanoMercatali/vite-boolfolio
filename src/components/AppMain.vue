@@ -21,11 +21,8 @@ export default {
     },
 
     created() {
-         axios.get(`${this.serverUrl}/api/projects`)
        // axios.get(`http://127.0.0.1:8000/api/projects`)
-        .then((resp) => {
-            this.projects = resp.data.results;
-        });
+         axios.get(`${this.serverUrl}/api/projects`).then((resp) => { this.projects = resp.data.results; });
     },
     components: {
         ProjectCard
