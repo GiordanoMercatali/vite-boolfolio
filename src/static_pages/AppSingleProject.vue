@@ -29,7 +29,7 @@
                 </li>
             </ul>
         </div>
-        <a href="{{project.git_link}}">{{project.git_link}}</a>
+        <!-- <a href="{{project.git_link}}">{{project.git_link}}</a> -->
     </div>
 </template>
 
