@@ -5,6 +5,7 @@ import {
 
 import AppHome from './static_pages/AppHome.vue';
 import AppAbout from './static_pages/AppAbout.vue';
+import AppSingleProject from './static_pages/AppSingleProject.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -20,6 +21,12 @@ const router = createRouter({
             name: 'about',
             component: AppAbout,
         },
+
+        {
+            path:'/:slug',
+            name: 'single-project',
+            component: AppSingleProject,
+        }
     ]
 });
 
