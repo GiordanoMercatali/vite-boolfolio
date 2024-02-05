@@ -1,7 +1,7 @@
 <template lang="">
     <div>
         <h2>Home</h2>
-        <p>Welcome</p>
+        <AppMain/>
         <!-- <router-link :to="{name: link}" class="nav-link">
             About
         </router-link> -->
@@ -10,12 +10,17 @@
 </template>
 
 <script>
+import AppMain from '../components/AppMain.vue';
 export default {
     data() {
     return {
     //   link: 'about',
     }
-  }
+  },
+
+  components: {
+        AppMain
+    }
 
 }
 </script>
