@@ -45,8 +45,12 @@ export default {
 
     created() {
 
-        console.log(this.$route.params.slug);
-         axios.get(`${this.serverUrl}/api/projects/${this.$route.params.slug}`).then((resp) => { this.project = resp.data.results; });
+        console.log("Montato");
+
+        axios.get(`${this.serverUrl}/api/projects/${this.$route.params.slug}`).then((resp) => {
+            console.log(resp);
+            this.project = resp.data.results;
+        });
     }
 }
 </script>
