@@ -45,7 +45,7 @@ export default {
 
     created() {
 
-        console.log("Montato");
+        // console.log("Montato");
 
         axios.get(`${this.serverUrl}/api/projects/${this.$route.params.slug}`).then((resp) => {
             console.log(resp);

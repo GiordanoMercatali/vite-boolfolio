@@ -3,11 +3,13 @@
         <h4>{{ project.title }}</h4>
         <div class="card-body">
             <p>{{ project.description }}</p>
+            <a :href="getLink(project.slug)">More</a>
         </div>
     </div>
 </template>
 
 <script>
+// import axios from "axios";
 export default {
     props: {
         project: Object,
@@ -17,10 +19,13 @@ export default {
             serverUrl: 'http://127.0.0.1:8000',
         };
     },
-    // computed(){
-    //     // return this.project;
-    // },
-}
+    
+    methods :{
+        getLink(currentSlug){
+                return `/${currentSlug}`;
+            }
+        }
+    }
 </script>
 
 <style lang="scss" scoped>
